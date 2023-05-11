@@ -1,0 +1,104 @@
+#board {
+    width: 700px;
+}
+.titleBar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#nicknameBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: lightgray;
+    height: 30px;
+}
+
+#nicknameBar span:first-child {
+    text-align: left;
+    padding-left: 10px;
+}
+#nicknameBar span:last-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#article {
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 10px;
+    height: 300px;
+}
+
+#deleteBar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 10px;
+}
+
+#commentFrame {
+    background: lightgray;
+    margin-top: 10px;
+}
+
+#commentTopBar {
+    text-align: left;
+    padding: 10px 10px;
+}
+
+#deleteBar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deleteEdit {
+    font-size: 15px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#delete {
+    width: 50px;
+    background-color: lightgray;
+}
+
+#edit {
+    width: 50px;
+    background-color: #693FAA;
+    color: #fff;
+}
+
+#commentInput {
+    display: flex;
+    width: 700px;
+}
+
+#commentInput span:first-child {
+    width: 87%;
+}
+
+#comment {
+    width: 100%;
+}
+
+#commentInput span:last-child {
+    width: 13%;
+}
+
+#commentBtn {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}

@@ -1,0 +1,80 @@
+@charset "UTF-8";
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#board {
+    width: 800px;
+}
+.topBar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topBar span {
+    flex: 1;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pageBtn {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    width: 20px;
+    height: 25px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+#topBarPageIndicator {
+    line-height: 30px;
+}
+#articleFrame {
+    margin-top: 15px;
+}
+.indicatorBar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#indicator {
+    text-align: center;
+    margin: auto;
+}
+.pagination {
+    margin: auto;
+}
+
+.pagination a {
+    color: black;
+}
+
+#writeBtn {
+    text-align: right;
+}
+
+#write {
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    background-color: #693FAA;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+}
+#searchBar {
+    display: block;
+    text-align: center;
+}
+#searchInput {
+}
+#searchBtn {
+    border: none;
+    background-color: #693FAA;
+    padding: 0;
+}

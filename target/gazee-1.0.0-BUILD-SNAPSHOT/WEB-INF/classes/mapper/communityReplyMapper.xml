@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="reply">
+	
+	<insert id="insert" parameterType="ReplyVO">
+		insert into community_reply values (testId, #{content}, #{date})
+	</insert>
+
+	<update id="update" parameterType="ReplyVO">
+		update community_reply set content = #{content} where no = #{no}
+	</update>
+
+	<delete id="delete" parameterType="ReplyVO">
+		delete from community_reply where no =#{no}
+	</delete>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
